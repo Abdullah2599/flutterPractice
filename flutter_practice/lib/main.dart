@@ -1,7 +1,11 @@
 import "package:flutter/material.dart";
+import "package:flutter_practice/grid.dart";
 
 void main() {
-  runApp(const FirstPage());
+  runApp(const 
+  MaterialApp(
+    home: Products()
+  ));
 }
 
 class FirstPage extends StatefulWidget {
